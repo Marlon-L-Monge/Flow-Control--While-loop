@@ -1,0 +1,26 @@
+def main():
+    userVariableValue = input("please input an int variable value: ")
+    countValue = input("please input an count value: ")
+    try:
+        userVariableValue = int(userVariableValue)
+        countValue = int(countValue)
+        print("Starting While Loop - Comparing User & Count Variable")
+        y=True
+        x=0
+        while(y == True):
+            for i in range(10):
+                print(i)
+                x+1
+                if(userVariableValue == countValue):
+                    print("The User variable is equal to the count variable.")
+                    print("user: ", userVariableValue)
+                    print("count: ", countValue)
+                if(x == 10):
+                    y = False
+        print("Ending While Loop")
+    except:
+      print('Please enter a number')
+      print(userVariableValue,"or ", countValue, ' is NOT a number')
+ 
+
+main()
