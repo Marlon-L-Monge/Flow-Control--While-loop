@@ -1,0 +1,29 @@
+def main():
+    print("Starting Code Challenge")
+    userVariable = input("please input a number greater than 20: ")
+    count = 0
+    try:
+        userVariable = float(userVariable)
+        if(userVariable < 20):
+            print("please input a number greater than 20")
+            
+        if(userVariable >=20):
+            print("Starting While Loop - Print Count Variable")
+            print("The user input started as ", userVariable)
+            
+            while(userVariable != 0):
+                while(userVariable > 0.5):
+                    userVariable = userVariable / 2
+                    count= count+1
+                    print(" The current value of the user input after some math is" , userVariable)
+                    print("The while loop has looped" , count , "time")
+                userVariable = 0
+            
+            print("Ending While Loop")
+            print("Ending Code Challenge")
+    except: 
+        if(type(uservariable) != int):
+            print('Please enter a number')
+            print(userVariable, ' is NOT a number') 
+
+main()
