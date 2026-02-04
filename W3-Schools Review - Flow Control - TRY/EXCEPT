@@ -1,0 +1,10 @@
+def main():
+    name = input("please enter a name;")
+    try:
+        print("Hello ", name, "how was your day today.")
+        food = input("please enter your favorite food: ")
+        print("im surprise you like ", food)
+    except: 
+        print("ya, something went wrong with this.")
+
+main()
