@@ -1,0 +1,12 @@
+def main():
+    x = 10
+    print("ready for blast off!")
+    print("in: ")
+    while(x != 0):
+        print(x)
+        x = x -1
+
+
+    print("blast OFF")
+        
+main()
