@@ -1,0 +1,13 @@
+def main():
+    fruits = ["apple", "banana", "cherry"]
+    for fruit in fruits:
+        print(f"I love {fruit}!")
+    
+    for char in "Hello":
+        print(char)
+
+    for i in range(5):
+        print(i)
+
+
+main()
